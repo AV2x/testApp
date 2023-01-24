@@ -76,7 +76,7 @@ class ArticleController extends Controller
      */
     public function update(Request $request, Article $article)
     {
-        //
+        Article::update();
     }
 
     /**
