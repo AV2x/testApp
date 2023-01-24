@@ -42,6 +42,7 @@ class ArticleController extends Controller
      */
     public function store(Request $request)
     {
+        Article::create();
     }
 
     /**
@@ -75,7 +76,7 @@ class ArticleController extends Controller
      */
     public function update(Request $request, Article $article)
     {
-        //
+        Article::update();
     }
 
     /**
